@@ -50,6 +50,12 @@ The initial list of events includes:
 - Food Carnival (Chicago)
 - Marathon (Boston)
 
+  ## Data Storage
+
+- **Users Data**: Stored in `local storage` to persist user data across sessions.
+  ```javascript
+  const users = JSON.parse(localStorage.getItem('users')) || [];
+
 ## Note
 
 <h1>This project does not use a database because I do not have much knowledge about it, but I have tried many times.</h1>
